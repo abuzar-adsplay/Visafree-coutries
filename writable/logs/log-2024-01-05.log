@@ -1,0 +1,19 @@
+CRITICAL - 2024-01-05 05:16:48 --> Undefined variable $evisa
+in APPPATH\Views\visa.php on line 62.
+ 1 APPPATH\Views\visa.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $evisa', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('andorra')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-05 11:06:21 --> Undefined variable $visaFreeCountries
+in APPPATH\Controllers\Home.php on line 127.
+ 1 APPPATH\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaFreeCountries', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 127)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('anguilla')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

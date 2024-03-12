@@ -1,0 +1,679 @@
+@charset "UTF-8";
+
+:root {
+    --base1: #EBEFF3;
+    --base2: #C3D0DB;
+    --base3: #88A1B7;
+    --baseDark1: #396387;
+    --baseDark2: #204566;
+    --baseDark3: #152E44;
+    --base: #090E10;
+    --primary1: #FFA68B;
+    --primary2: #FF7145;
+    --primary3: #FF3D00;
+    --primaryDark1: #BA2D00;
+    --primaryDark2: #741C00;
+    --primaryDark3: #5C2511;
+    --primary: #2F0C00;
+}
+
+[data-theme=dark] {
+    --base1: #2F4858;
+    --base2: #233541;
+    --base3: #162128;
+    --baseDark1: #ECEEEF;
+    --baseDark2: #B3BCC2;
+    --baseDark3: #7A8A94;
+}
+
+:root {
+    --base-shadow: inset 0px 0px 0px var(--base3),
+        inset 0px 0px 0px var(--base1),
+        4px 4px 9px var(--base3),
+        -4px -4px 9px var(--base1);
+        --base-shadow-list: inset 0px 0px 0px var(--base3),
+        inset 0px 0px 0px var(--base1),
+        4px 4px 9px var(--base3),
+        -4px -4px 9px var(--base3);
+    --base-shadow-active: inset 4px 4px 9px var(--base3),
+        inset -4px -4px 6px var(--base1),
+        2px 2px 9px var(--base3),
+        -2px -2px 9px var(--base1);
+    --base-shadow-neutral: inset 0px 0px 0px var(--base3),
+        inset 0px 0px 0px var(--base1),
+        4px 4px 16px var(--base2),
+        -4px -4px 16px var(--base2);
+    --base-shadow-neutral-active: inset 2px 2px 6px var(--base3),
+        inset -2px -2px 6px var(--base1),
+        2px 2px 6px var(--base3),
+        -2px -2px 6px var(--base1);
+    --primary-shadow: inset 0px 0px 0px var(--primary3),
+        inset 0px 0px 0px var(--primary1),
+        4px 4px 9px var(--primary3),
+        -4px -4px 9px var(--primary1);
+    --primary-shadow-active: inset 4px 4px 9px var(--primaryDark1),
+        inset -4px -4px 6px var(--primary2),
+        2px 2px 9px var(--primaryDark1),
+        -2px -2px 9px var(--primary1);
+    --primary-shadow-neutral: inset 0px 0px 0px var(--primary3),
+        inset 0px 0px 0px var(--primary1),
+        4px 4px 16px var(--primary2),
+        -4px -4px 16px var(--primary2);
+    --primary-shadow-neutral-active: inset 2px 2px 6px var(--primary3),
+        inset -2px -2px 6px var(--primary1),
+        2px 2px 6px var(--primary3),
+        -2px -2px 6px var(--primary1);
+    --shadow-transition: all 0.25s cubic-bezier(.17, .67, .83, .67);
+    --text-shadow:
+        -0.6px -0.6px 0px var(--baseDark1),
+        0.6px -0.6px 0px var(--baseDark1),
+        0.6px 0.6px 0px var(--baseDark1),
+        -0.6px 0.6px 0px var(--baseDark1);
+    --input-shadow:
+        2px 2px 9px var(--base3),
+        -2px -2px 9px var(--base1);
+    --input-shadow-active:
+        inset 2px 2px 6px var(--base3),
+        inset -2px -2px 6px var(--base1),
+        1px 1px 6px var(--base3),
+        -1px -1px 6px var(--base1);
+    --input-shadow-valid:
+        inset 2px 2px 4px var(--base3),
+        inset -2px -2px 4px var(--base1),
+        1px 1px 6px var(--base3),
+        -1px -1px 6px var(--base1);
+    --input-radio-inner-valid:
+        inset 2px 2px 4px var(--base3),
+        inset -2px -2px 4px var(--base1),
+        1px 1px 4px var(--base3),
+        -1px -1px 4px var(--base1);
+}
+
+.neomorphism-from {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    --main-font: Helvetica, Arial, sans-serif;
+}
+
+.neomorphism-from p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.neomorphism-from h3 {
+    font-size:1.8rem;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top:1vh;
+}
+
+.neomorphism-from button {
+    border-radius: 10px;
+    padding: 10px 15px;
+    max-width: 500px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: var(--shadow-transition);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: var(--baseDark2);
+    background: var(--base2);
+    border: 2px solid var(--base2);
+    box-shadow: var(--base-shadow);
+}
+
+.neomorphism-from button:hover,
+.neomorphism-from button:active,
+.neomorphism-from button:focus,
+.neomorphism-from button.active {
+    outline: none;
+    box-shadow: var(--base-shadow-active);
+    color: var(--baseDark2);
+    border-color: var(--base3);
+}
+
+.neomorphism-from button:disabled {
+    color: var(--base3);
+    background: var(--base2);
+    border-color: var(--base3);
+    box-shadow: 4px 4px 16px var(--base2), -4px -4px 16px var(--base2);
+    transition: unset;
+}
+
+.neomorphism-from button:disabled span {
+    transition: unset;
+    transform: unset;
+}
+
+.neomorphism-from button:disabled:hover,
+.neomorphism-from button:disabled:active,
+.neomorphism-from button:disabled:focus {
+    color: var(--base3);
+    background: var(--base2);
+    border-color: var(--base3);
+    box-shadow: unset;
+}
+
+.neomorphism-from .tertiary {
+    box-shadow: var(--base-shadow-neutral);
+}
+
+.neomorphism-from .tertiary:hover,
+.neomorphism-from .tertiary:active,
+.neomorphism-from .tertiary:focus {
+    box-shadow: var(--base-shadow-neutral-active);
+}
+
+.neomorphism-from .primary {
+    color: var(--primaryDark3);
+    background: var(--primary3);
+    border-color: var(--primary3);
+    box-shadow: var(--primary-shadow);
+}
+
+.neomorphism-from .primary:hover,
+.neomorphism-from .primary:active,
+.neomorphism-from .primary:focus,
+.neomorphism-from .primary.active {
+    color: var(--primaryDark3);
+    background: var(--primary3);
+    box-shadow: var(--primary-shadow-active);
+    border-color: var(--primaryDark1);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .neomorphism-from .primary:hover,
+    .neomorphism-from .primary:active,
+    .neomorphism-from .primary:focus,
+    .neomorphism-from .primary.active {
+        color: var(--primaryDark2);
+        background: var(--primaryDark3);
+        box-shadow: var(--primary-shadow-active);
+        border-color: var(--primary1);
+    }
+}
+
+.neomorphism-from .primary:disabled {
+    color: var(--primaryDark3);
+    background: var(--primaryDark1);
+    border-color: var(--primaryDark2);
+    box-shadow: unset;
+}
+
+.neomorphism-from .primary:disabled span {
+    transition: unset;
+    transform: unset;
+}
+
+.neomorphism-from .primary:disabled:hover,
+.neomorphism-from .primary:disabled:active,
+.neomorphism-from .primary:disabled:focus {
+    color: var(--primaryDark3);
+    background: var(--primaryDark1);
+    border-color: var(--primaryDark3);
+    box-shadow: unset;
+}
+
+.neomorphism-from input {
+    border: none;
+    box-sizing: border-box;
+}
+
+.neomorphism-from .text-input-group {
+    position: relative;
+}
+
+.neomorphism-from .text-input-group label,
+.neomorphism-from .text-input-group input {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--main-font);
+    color: var(--baseDark1);
+}
+
+.neomorphism-from .text-input-group label {
+    position: absolute;
+    left: 18px;
+    top: 17px;
+    transform-origin: left top;
+    transition: all 0.25s linear;
+}
+
+.neomorphism-from .text-input-group input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 30px;
+    padding: 10px 15px;
+    margin-top: 7px;
+    background: var(--base2);
+    border: 2px solid var(--base2);
+    box-shadow: var(--input-shadow);
+    transition: var(--shadow-transition);
+    color: var(--base3);
+}
+.neomorphism-from .text-input-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border-radius: 10px;
+    min-height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right:40px;
+    background: var(--base2);
+    border: 2px solid var(--base2);
+    box-shadow: var(--input-shadow);
+    transition: var(--shadow-transition);
+    color: var(--base3);
+    font-size: 16px;
+}
+.neomorphism-from ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.neomorphism-from li {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    min-height: 40px;
+    padding:10px;
+    margin-top:5px;
+    background: var(--base2);
+     border-bottom:1px solid var(--baseDark1);
+    color: var(--base);
+    font-size: 16px;
+    cursor: pointer;
+    overflow:hidden;
+    transition: var(--shadow-transition); 
+
+}
+.neomorphism-from li:last-child{
+    border:none;
+}
+
+.neomorphism-from li:hover{
+    box-shadow: var(--base-shadow-list);
+    border-radius:30px;
+   margin-right:30px;
+   
+}
+
+
+
+
+.neomorphism-from .text-input-group input::-moz-placeholder {
+    color: var(--base2);
+    -moz-transition: color 0.25s linear;
+    transition: color 0.25s linear;
+    text-shadow: none;
+}
+
+.neomorphism-from .text-input-group input:-ms-input-placeholder {
+    color: var(--base2);
+    -ms-transition: color 0.25s linear;
+    transition: color 0.25s linear;
+    text-shadow: none;
+}
+
+.neomorphism-from .text-input-group input::placeholder {
+    color: var(--base2);
+    transition: color 0.25s linear;
+    text-shadow: none;
+}
+
+.neomorphism-from .text-input-group input:focus:enabled,
+.neomorphism-from .text-input-group input:active:enabled {
+    outline: none;
+    color: var(--baseDark2);
+    border-color: var(--base3);
+    box-shadow: var(--input-shadow-active);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .neomorphism-from .text-input-group input:focus:enabled,
+    .neomorphism-from .text-input-group input:active:enabled {
+        border-color: var(--baseDark1);
+    }
+}
+
+.neomorphism-from .text-input-group input:focus:enabled::-moz-placeholder,
+.neomorphism-from .text-input-group input:active:enabled::-moz-placeholder {
+    color: var(--base3);
+}
+
+.neomorphism-from .text-input-group input:focus:enabled:-ms-input-placeholder,
+.neomorphism-from .text-input-group input:active:enabled:-ms-input-placeholder {
+    color: var(--base3);
+}
+
+.neomorphism-from .text-input-group input:focus:enabled::placeholder,
+.neomorphism-from .text-input-group input:active:enabled::placeholder {
+    color: var(--base3);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .neomorphism-from .text-input-group input:focus:enabled::-moz-placeholder,
+    .neomorphism-from .text-input-group input:active:enabled::-moz-placeholder {
+        color: var(--baseDark2);
+    }
+
+    .neomorphism-from .text-input-group input:focus:enabled:-ms-input-placeholder,
+    .neomorphism-from .text-input-group input:active:enabled:-ms-input-placeholder {
+        color: var(--baseDark2);
+    }
+
+    .neomorphism-from .text-input-group input:focus:enabled::placeholder,
+    .neomorphism-from .text-input-group input:active:enabled::placeholder {
+        color: var(--baseDark2);
+    }
+}
+
+.neomorphism-from .text-input-group input:focus:enabled+label,
+.neomorphism-from .text-input-group input:active:enabled+label {
+    transform: translateY(-34px) scale(0.9);
+    font-weight: 600;
+}
+
+.neomorphism-from .text-input-group input:valid {
+    box-shadow: var(--input-shadow-valid);
+    color: var(--baseDark1);
+}
+
+.neomorphism-from .text-input-group input:valid+label {
+    transform: translateY(-34px) scale(0.9);
+    font-weight: 600;
+}
+
+.neomorphism-from .text-input-group input:disabled {
+    color: var(--base3);
+    background: var(--base2);
+    border-color: var(--base3);
+    box-shadow: var(--input-shadow-neutral);
+    transition: unset;
+}
+
+.neomorphism-from .text-input-group input:disabled+label {
+    color: var(--base3);
+}
+
+.neomorphism-from .radios {
+    display: grid;
+    padding: 10px;
+}
+
+.neomorphism-from .radio-wrapper {
+    margin: 0.5rem 0;
+}
+
+.neomorphism-from input[type=radio],
+.neomorphism-from input[type=checkbox] {
+    opacity: 0;
+}
+
+.neomorphism-from input[type=radio]+label,
+.neomorphism-from input[type=checkbox]+label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.neomorphism-from input[type=radio]+label span,
+.neomorphism-from input[type=checkbox]+label span {
+    margin-left: 6px;
+}
+
+.neomorphism-from input[type=radio]+label::before,
+.neomorphism-from input[type=checkbox]+label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top:2px;
+    left: -24px;
+    border-radius: 50%;
+    border: 2px solid var(--base2);
+    box-shadow: var(--input-shadow);
+    box-shadow: var(--input-shadow-valid);
+    width: 18px;
+    height: 18px;
+}
+
+.neomorphism-from input[type=radio]+label::after,
+.neomorphism-from input[type=checkbox]+label::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: -21px;
+    top: 5px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    transform-origin: center center;
+    transform: scale(0);
+    transition: var(--shadow-transition);
+}
+
+
+.neomorphism-from input[type=radio]:checked+label::before,
+.neomorphism-from input[type=checkbox]:checked+label::before {
+    box-shadow: var(--input-radio-inner-valid);
+}
+
+.neomorphism-from input[type=radio]:checked+label::after,
+.neomorphism-from input[type=checkbox]:checked+label::after {
+    background: var(--baseDark1);
+    transform: scale(1);
+}
+
+.neomorphism-from input[type=radio]:focus+label span,
+.neomorphism-from input[type=radio]:active+label span,
+.neomorphism-from input[type=checkbox]:focus+label span,
+.neomorphism-from input[type=checkbox]:active+label span {
+    font-weight: 600;
+}
+
+.neomorphism-from input[type=radio]:focus+label::before,
+.neomorphism-from input[type=radio]:active+label::before,
+.neomorphism-from input[type=checkbox]:focus+label::before,
+.neomorphism-from input[type=checkbox]:active+label::before {
+    box-shadow: var(--input-shadow-active);
+    border-color: var(--base3);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    .neomorphism-from input[type=radio]:focus+label::before,
+    .neomorphism-from input[type=radio]:active+label::before,
+    .neomorphism-from input[type=checkbox]:focus+label::before,
+    .neomorphism-from input[type=checkbox]:active+label::before {
+        border-color: var(--baseDark2);
+    }
+}
+
+.neomorphism-from input[type=checkbox]+label::before {
+    border-radius: 6px;
+    
+    box-shadow: var(--input-radio-inner-valid);
+}
+
+.neomorphism-from input[type=checkbox]+label::after {
+    content: "✓";
+    font-weight:900;
+}
+
+.neomorphism-from input[type=checkbox]:checked+label::after {
+    top: 0;
+    background-color: transparent;
+    color:var(--baseDark1);
+    
+}
+
+.neomorphism-from.card {
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 1o0px;
+    max-width: 500px;
+    padding: 15px 20px;
+    background: var(--base2);
+    border: 2px solid var(--base3);
+    
+}
+
+.neomorphism-from .card__content {
+    max-width: 600px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.neomorphism-from .card__footer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+}
+
+.neomorphism-from form {
+    margin: 20px 0;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.neomorphism-from form .input-fields {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 500px) {
+    .neomorphism-from form .input-fields {
+        grid-template-columns: 1fr;
+        grid-gap: 30px 20px;
+    }
+}
+
+.checkbox-set .radios {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 500px) {
+    .neomorphism-from .checkbox-set .radios {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .neomorphism-from .checkbox-set .radios {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .neomorphism-from .checkbox-set .radios {
+        grid-template-columns: 1fr;
+    }
+}
+
+.neomorphism-from #toggle label {
+    border: 2px solid var(--base2);
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: var(--shadow-transition);
+    width: 65px;
+    height: 38px;
+    border: 2px solid var(--base2);
+    box-shadow: var(--input-shadow-valid);
+    outline: none;
+}
+
+.neomorphism-from #toggle label:before,
+.neomorphism-from #toggle label:after {
+    background-color: var(--base2);
+    border-radius: 50%;
+    content: "";
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+    transition: all ease-in-out 0.3s;
+    width: 21px;
+    height: 21px;
+    border: 2px solid var(--base2);
+    box-shadow: inset 0px 0px 0px var(--base3), inset 0px 0px 0px var(--base1), 2px 2px 3px var(--base3), -2px -2px 3px var(--base1);
+}
+
+.neomorphism-from #toggle input[type=checkbox] {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.neomorphism-from #toggle input[type=checkbox]:focus~label,
+.neomorphism-from #toggle input[type=checkbox]:active~label,
+.neomorphism-from #toggle input[type=checkbox]:hover~label {
+    border-color: var(--base3);
+    box-shadow: var(--input-shadow-active);
+}
+
+.neomorphism-from #toggle input[type=checkbox]:checked~label:before,
+.neomorphism-from #toggle input[type=checkbox]:checked~label:after {
+    background-color: var(--baseDark3);
+    transform: translateX(25px);
+}
+
+.neomorphism-from #toggle input[type=checkbox]:checked~label:after {
+    background-color: var(--base2);
+    height: 11px;
+    width: 11px;
+    top: 9px;
+    transform: translateX(50px);
+    box-shadow: inset 0px 0px 0px var(--base3), inset 0px 0px 0px var(--base1), 0px 0px 0px var(--base1), 0px 0px 0px var(--base3);
+}
+
+.neomorphism-from .container {
+    min-height: 100%;
+    padding: 50px 25px;
+}
+.neomorphism-from .theme {
+    justify-self: end;
+    padding: 50px 20px 50px 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.neomorphism-from .theme button {
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+}
+
+.neomorphism-from .theme svg path:nth-child(2) {
+    fill: var(--baseDark2);
+}
+
+.neomorphism-from .theme svg path:nth-child(3) {
+    fill: var(--baseDark2);
+}

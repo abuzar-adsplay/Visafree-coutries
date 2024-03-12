@@ -1,0 +1,387 @@
+CRITICAL - 2024-01-03 05:11:19 --> Undefined property: App\Controllers\Home::$countryName
+in APPPATH\Controllers\Home.php on line 56.
+ 1 APPPATH\Controllers\Home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$countryName', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 56)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('austria')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 05:32:37 --> Undefined constant "App\Controllers\countryCode"
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(26): App\Controllers\Home->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 05:32:58 --> Undefined variable $countryCode
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countryCode', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 62)
+ 2 APPPATH\Controllers\Home.php(26): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 05:38:08 --> Undefined variable $countryCode
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countryCode', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 62)
+ 2 APPPATH\Controllers\Home.php(26): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 05:46:15 --> Undefined variable $countryCode
+in APPPATH\Controllers\Home.php on line 60.
+ 1 APPPATH\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countryCode', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 60)
+ 2 APPPATH\Controllers\Home.php(26): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:01:38 --> Undefined array key "country_code"
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "country_code"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 57)
+ 2 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:01:54 --> Attempt to read property "country_code" on array
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "country_code" on array', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 57)
+ 2 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:02:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Home.php on line 53.
+ 1 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:02:37 --> Undefined array key "country_code"
+in APPPATH\Controllers\Home.php on line 53.
+ 1 APPPATH\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "country_code"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 53)
+ 2 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:04:43 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:04:56 --> Undefined constant "App\Controllers\country_code"
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:05:20 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 57)
+ 2 APPPATH\Controllers\Home.php(25): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:18:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Home.php on line 55.
+ 1 APPPATH\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 55)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:30:54 --> Uninitialized string offset 3
+in APPPATH\Controllers\Home.php on line 56.
+ 1 APPPATH\Controllers\Home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 3', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 56)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:33:48 --> Undefined array key "country"
+in APPPATH\Controllers\Home.php on line 55.
+ 1 APPPATH\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "country"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 55)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:48:07 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 82)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:48:54 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 82)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:48:55 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 82)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:48:56 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 82)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 06:50:09 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 82.
+ 1 APPPATH\Controllers\Home.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 82)
+ 2 APPPATH\Controllers\Home.php(24): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:10:55 --> Undefined variable $list
+in APPPATH\Views\visa.php on line 15.
+ 1 APPPATH\Views\visa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:13:20 --> Undefined variable $visaType
+in APPPATH\Views\visa.php on line 120.
+ 1 APPPATH\Views\visa.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaType', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:14:00 --> Undefined variable $data
+in APPPATH\Views\visa.php on line 135.
+ 1 APPPATH\Views\visa.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:15:13 --> Undefined array key "title"
+in APPPATH\Views\visa.php on line 122.
+ 1 APPPATH\Views\visa.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:15:42 --> Undefined array key 90
+in APPPATH\Views\visa.php on line 122.
+ 1 APPPATH\Views\visa.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 90', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:16:50 --> Undefined array key "title"
+in APPPATH\Views\visa.php on line 122.
+ 1 APPPATH\Views\visa.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 07:17:00 --> Array to string conversion
+in APPPATH\Views\visa.php on line 122.
+ 1 APPPATH\Views\visa.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 122)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(34): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:10:43 --> Undefined variable $mobilityScore
+in APPPATH\Views\visa.php on line 35.
+ 1 APPPATH\Views\visa.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mobilityScore', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:19:38 --> Undefined array key "visa free"
+in APPPATH\Views\visa.php on line 118.
+ 1 APPPATH\Views\visa.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('åland islands')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:19:52 --> Undefined array key "visa free"
+in APPPATH\Views\visa.php on line 118.
+ 1 APPPATH\Views\visa.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('aruba')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:20:26 --> Undefined array key "visa free"
+in APPPATH\Views\visa.php on line 118.
+ 1 APPPATH\Views\visa.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('åland islands')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:20:52 --> Undefined array key "visa free"
+in APPPATH\Views\visa.php on line 118.
+ 1 APPPATH\Views\visa.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('bermuda')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:21:44 --> Undefined array key "visa free"
+in APPPATH\Views\visa.php on line 118.
+ 1 APPPATH\Views\visa.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('ascension island')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:33:54 --> Undefined array key "e-visa"
+in APPPATH\Views\visa.php on line 141.
+ 1 APPPATH\Views\visa.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "e-visa"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 141)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('ascension island')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:36:46 --> Undefined array key "e-visa"
+in APPPATH\Views\visa.php on line 144.
+ 1 APPPATH\Views\visa.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "e-visa"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('ascension island')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:36:47 --> Undefined array key "e-visa"
+in APPPATH\Views\visa.php on line 144.
+ 1 APPPATH\Views\visa.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "e-visa"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('ascension island')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 08:37:21 --> Undefined array key "e-visa"
+in APPPATH\Views\visa.php on line 144.
+ 1 APPPATH\Views\visa.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "e-visa"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 144)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('antarctica')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:14:13 --> Undefined array key "visa-free"
+in APPPATH\Views\visa.php on line 121.
+ 1 APPPATH\Views\visa.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa-free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:14:21 --> Undefined array key "visa-free"
+in APPPATH\Views\visa.php on line 121.
+ 1 APPPATH\Views\visa.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa-free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('united arab emirates')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:14:44 --> Undefined array key "visa on arrival"
+in APPPATH\Views\visa.php on line 165.
+ 1 APPPATH\Views\visa.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa on arrival"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 165)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('åland islands')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-03 10:25:41 --> Undefined array key "visa-free"
+in APPPATH\Views\visa.php on line 121.
+ 1 APPPATH\Views\visa.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "visa-free"', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php', 121)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Views\\visa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('visa', [], true)
+ 5 APPPATH\Controllers\Home.php(36): view('visa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('angola')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

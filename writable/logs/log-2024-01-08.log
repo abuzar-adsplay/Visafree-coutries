@@ -1,0 +1,40 @@
+CRITICAL - 2024-01-08 11:48:33 --> Undefined variable $visaFreeCountries
+in APPPATH\Controllers\Home.php on line 127.
+ 1 APPPATH\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaFreeCountries', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 127)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('mayotte')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:49:35 --> Undefined variable $visaFreeCountries
+in APPPATH\Controllers\Home.php on line 127.
+ 1 APPPATH\Controllers\Home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaFreeCountries', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 127)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('mayotte')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:50:10 --> Undefined variable $visaOnArrival
+in APPPATH\Controllers\Home.php on line 128.
+ 1 APPPATH\Controllers\Home.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaOnArrival', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 128)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('mayotte')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 11:50:31 --> Undefined variable $visaOnArrival
+in APPPATH\Controllers\Home.php on line 128.
+ 1 APPPATH\Controllers\Home.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaOnArrival', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 128)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('mayotte')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-08 12:29:53 --> Undefined variable $visaOnArrival
+in APPPATH\Controllers\Home.php on line 128.
+ 1 APPPATH\Controllers\Home.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $visaOnArrival', 'C:\\xampp\\htdocs\\visafree-codeigniter4\\app\\Controllers\\Home.php', 128)
+ 2 APPPATH\Controllers\Home.php(31): App\Controllers\Home->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchedCountry('mayotte')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
